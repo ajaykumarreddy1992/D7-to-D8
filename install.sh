@@ -1,6 +1,8 @@
 #!/bin/bash
 # Install only Drush 8 version as most of the vendor files depende on this.
 composer require drush/drush:8.x-dev --prefer-source
+# Install Adminimal theme for Apigee Admin.
+composer require drush/adminimal_theme
 # Install entity first as it required for apigee modules.
 drush dl entity -y
 drush en entity -y

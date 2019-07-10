@@ -121,7 +121,20 @@ function drush_apigee_modules_enable_modules() {
     }
     drush_print(t('Successfully installed @module', ['@module' => $drush_module]));
   }
-
+  // Install adminimal and bootstrap theme.
+  $themes = ['bootstrap', 'adminimal_theme'];
+  foreach ($themes as $theme) {
+    $theme_process = new Process('composer require drupal/' . $theme . ' --no-update');
+    $theme_process->mustRun();
+    if ($theme_process->getOutput()) {
+      drush_print(t($theme_process->getOutput()));
+    }
+    \Drupal::service('theme_installer')->install([$theme]);
+    if ($theme == 'adminimal_theme') {
+      \Drupal::service('theme_handler')->setDefault('adminimal_theme');
+      drush_print(t('Successfully installed @module', ['@module' => 'adminimal_theme']));
+    }
+  }
   $modules = [
     'admin_toolbar',
     'admin_toolbar_tools',
@@ -175,7 +188,6 @@ function drush_apigee_modules_enable_modules() {
   ];
   foreach ($modules as $module) {
     $process = new Process('composer require drupal/' . $module . ' --no-update');
-    //$process = new Process('composer require drupal/' . $module);
     $process->mustRun();
     if ($process->getOutput()) {
       drush_print(t($process->getOutput()));
