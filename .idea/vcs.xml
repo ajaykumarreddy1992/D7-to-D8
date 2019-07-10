@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/address" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/admin_toolbar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/apigee_edge" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/authorization" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/autologout" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/block_class" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/captcha" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/commerce" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/content_access" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/context" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/ctools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/devel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/devel_php" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/eck" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/entity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/entity_reference_revisions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/environment_indicator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/externalauth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/faq" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/file_entity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/google_analytics" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/inline_entity_form" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/key" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/ldap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/libraries" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/mailsystem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/markdown" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/mediaelement" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/metatag" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/migrate_plus" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/migrate_tools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/mimemail" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/oauth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/pathauto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/profile" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/readonlymode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/recaptcha" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/redirect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/redis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/remote_stream_wrapper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/rules" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/services" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/smtp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/state_machine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/swagger_ui_formatter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/syntaxhighlighter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/token" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/typed_data" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/views_accordion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/views_bulk_operations" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/views_slideshow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reddy/modules/contrib/webform" vcs="Git" />
+  </component>
+</project>

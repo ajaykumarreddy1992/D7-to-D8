@@ -14,25 +14,25 @@ echo "DROP database ${DATA[0]}" | /Applications/MAMP/Library/bin/mysql -uroot -p
 echo "create database ${DATA[0]}" | /Applications/MAMP/Library/bin/mysql -uroot -proot
 echo "create database $1" | /Applications/MAMP/Library/bin/mysql -uroot -proot
 # Import given database to source database (D7)
-echo "Importing Source database.." | /Applications/MAMP/Library/bin/mysql -uroot -proot ${DATA[0]} < /Applications/MAMP/htdocs/migrate/${DATA[0]}.sql
+echo "Importing Source database.." | /Applications/MAMP/Library/bin/mysql -uroot -proot ${DATA[0]} < /Applications/MAMP/htdocs/ajay/${DATA[0]}.sql
 # Goto D8 folder
 cd $1
-#mv ../$1.txt .
+mv ../$1.txt .
 # Install drupal with standard profile and credentials
-drush si standard --db-url=mysql://root:root@localhost/$1 --account-name=admin --account-pass=admin --account-mail=swathi@gmail.com --site-name=$1 --site-mail=swathi@gmail.com --notify -y
+drush si standard --db-url=mysql://root:root@127.0.0.1:8889/$1 --account-name=admin --account-pass=admin --account-mail=swathi@gmail.com --site-name=$1 --site-mail=swathi@gmail.com --notify -y
 # Create file for migrate details.
 echo "" >> settings.migrate.php
 pwd
-echo -e "swathi@123\n" | sudo -S cp ../settings.migrate.php sites/default/settings.migrate.php
-echo -e "swathi@123\n" | sudo -S chmod 777 sites/default/settings.migrate.php
+echo -e "ajay\n" | sudo -S cp ../settings.migrate.php sites/default/settings.migrate.php
+echo -e "ajay\n" | sudo -S chmod 777 sites/default/settings.migrate.php
 # Insert migrate database settings.
 echo "<?php
 \$databases['migrate']['default'] = [
-  'database' => 'devdemodac',
+  'database' => '${DATA[0]}',
   'username' => 'root',
   'password' => 'root',
   'prefix' => '',
-  'host' => 'localhost',
+  'host' => '127.0.0.1',
   'port' => '8889',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
